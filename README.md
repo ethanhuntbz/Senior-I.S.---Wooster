@@ -57,6 +57,7 @@ Output>Tables - Statistical Tables
 
 Raw
 -Raw data used to generate the project. Details for that all data sources are found in the appendix. For the OECD and World Bank, API calls are used in 1.Wrangling. The rest are downloaded and used locally.
+- You will need to download V-Dem-CY-Core-v15 as GitHub doesn't allow uploads of that size. You can find it https://www.v-dem.net/. 
 -Raw>Controls - locally downloaded raw control data. There is some unused data in the project. Here are sources for the ambiguously named controls. If there are no details, input into google.
  	>budget - IMF World Economic Outlook
  	>eu epl - Employment data for Estonia - see data appendix for authorship
