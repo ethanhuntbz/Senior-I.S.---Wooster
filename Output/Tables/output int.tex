@@ -1,0 +1,37 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{4}{c}}
+\toprule
+                    &\multicolumn{1}{c}{(1)}         &\multicolumn{1}{c}{(2)}         &\multicolumn{1}{c}{(3)}         &\multicolumn{1}{c}{(4)}         \\
+\midrule
+IHS Climate Finance &       1.511         &                     &                     &                     \\
+                    &       1.452         &                     &                     &                     \\
+ND-GAIN Index       &       0.645         &                     &                     &                     \\
+                    &       0.739         &                     &                     &                     \\
+Interaction         &      -0.032         &                     &                     &                     \\
+                    &       0.031         &                     &                     &                     \\
+Lagged ND-GAIN Index (L1)&                     &      -0.085         &                     &                     \\
+                    &                     &       0.444         &                     &                     \\
+Lagged IHS Climate Finance (L1)&                     &       0.116         &                     &                     \\
+                    &                     &       0.763         &                     &                     \\
+Lagged IHS Climate Finance (L5)&                     &                     &       0.637         &                     \\
+                    &                     &                     &       0.832         &                     \\
+Lagged IHS Climate Finance (L10)&                     &                     &                     &      -0.261         \\
+                    &                     &                     &                     &       0.453         \\
+L.ihs\_cf $\times$ L.gain&                     &      -0.007         &                     &                     \\
+                    &                     &       0.016         &                     &                     \\
+Lagged ND-GAIN Index (L5)&                     &                     &       0.320         &                     \\
+                    &                     &                     &       0.488         &                     \\
+L5.ihs\_cf $\times$ L5.gain&                     &                     &      -0.015         &                     \\
+                    &                     &                     &       0.018         &                     \\
+Lagged ND-GAIN Index (L10)&                     &                     &                     &       0.450         \\
+                    &                     &                     &                     &       0.388         \\
+L10.ihs\_cf $\times$ L10.gain&                     &                     &                     &       0.006         \\
+                    &                     &                     &                     &       0.010         \\
+\midrule
+Controls            &   \ding{51}         &   \ding{51}         &   \ding{51}         &   \ding{51}         \\
+FE                  &   \ding{51}         &   \ding{51}         &   \ding{51}         &   \ding{51}         \\
+Observations        &         357         &         357         &         318         &         236         \\
+\bottomrule
+\end{tabular}
+}

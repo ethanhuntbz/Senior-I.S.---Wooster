@@ -1,0 +1,14 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{One-Year Lagged Effect of Climate Finance on Poverty}
+\begin{tabular}{l*{6}{c}}
+\toprule
+                    &\multicolumn{1}{c}{(1)}         &\multicolumn{1}{c}{(2)}         &\multicolumn{1}{c}{(3)}         &\multicolumn{1}{c}{(4)}         &\multicolumn{1}{c}{(5)}         &\multicolumn{1}{c}{(6)}         \\
+\midrule Dependent Variable & \multicolumn{2}{c}{Headcount} & \multicolumn{2}{c}{Poverty Gap} & \multicolumn{2}{c}{Squared Gap} \\ \cmidrule(lr){2-3} \cmidrule(lr){4-5} \cmidrule(lr){6-7}
+IHS Climate Finance &      -0.002\sym{***}&      -0.000         &      -0.001\sym{**} &      -0.000         &      -0.001\sym{*}  &      -0.000         \\
+                    &       0.001         &       0.001         &       0.000         &       0.000         &       0.000         &       0.000         \\
+\midrule
+Controls            &   \ding{51}         &   \ding{51}         &   \ding{51}         &   \ding{51}         &   \ding{51}         &   \ding{51}         \\
+FE                  &                     &   \ding{51}         &                     &   \ding{51}         &                     &   \ding{51}         \\
+Observations        &         130         &         130         &         130         &         130         &         130         &         130         \\
+\bottomrule \end{tabular} \begin{center} \begin{minipage}{0.8\textwidth} \footnotesize \flushleft Climate finance is in mil. 2021 USD and is IHS transformed. FE refers to country and year fixed effects. Standard errors clustered at the country level. *, **, *** denote significance at the 10, 5, and 1 percent levels. \end{minipage} \end{center} \end{table}

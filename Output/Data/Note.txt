@@ -1,0 +1,5 @@
+Details on Files Generated:
+Ag_cf - aggregated climate finance
+disag - disaggregated climate finance
+cf_data_v3_2021 - data used for poverty regressions using 2021 USD. Update main wrangling script and change base year to 2021 then run
+cf_data_v4 - most up to date version of data. All monetary variables in 2023 USD
